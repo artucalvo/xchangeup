@@ -29,6 +29,11 @@ body{
 	width:80%;
 	margin:0 auto;
 }
+.logoheader {
+    height: 50px;
+    margin-bottom: -10px;
+}
+
 /*---start-Header-----*/
 .header{
 	background: #f5f5f5;

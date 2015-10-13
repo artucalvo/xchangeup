@@ -59,9 +59,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		ga('create', 'UA-68684866-1', 'auto');
 		ga('send', 'pageview');
 	</script><!-- End Google Analytics -->
+	<!-- SCRIPT CONTROL DE COOKIES -->
+    <script type="text/javascript">
+        function controlcookies() {
+            localStorage.controlcookie = (localStorage.controlcookie || 0);
+            localStorage.controlcookie++; // incrementamos cuenta de la cookie
+            cookie1.style.display='none'; // Esconde la política de cookies
+        }
+    </script>
 	
 </head>
 <body>
+	<!--Código HTML de la política de cookies -->
+	<div class="cookiesms" id="cookie1">Esta web utiliza cookies, puedes ver nuestra política de cookies <a href="privacy.html" target="_new">aquí</a>. Si continuas navegando estás aceptándola.
+		<button onclick="controlcookies()">Aceptar</button>
+		<div  class="cookies2" onmouseover="document.getElementById('cookie1').style.bottom = '0px';">Política de cookies + </div>
+	</div>
+	<script type="text/javascript">
+		if (localStorage.controlcookie>0){ 
+		document.getElementById('cookie1').style.bottom = '-50px';
+		}
+	</script>
+	<!-- Fin del código de cookies --->
+
 <!---start-wrap---->
 	<!---start-header---->
 	<div class="header">
@@ -126,7 +146,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!---start-footer----->
 	<div class="footer" id="contact">
 		<div class="wrap">
-			<p><a href="mailto:info@xtegos.com">info@xtegos.com</a></p>
+			<p><a href="terms.html">Términos y Condiciones</a> &nbsp;&nbsp;&nbsp;&nbsp;|
+			&nbsp;&nbsp;&nbsp;&nbsp; <a href="mailto:info@xtegos.com">info@xtegos.com</a>|
+			&nbsp;&nbsp;&nbsp;&nbsp; <a href="privacy.html">Política de Privacidad</a></p>
 			<script type="text/javascript">
 			$(document).ready(function() {
 				$().UItoTop({ easingType: 'easeOutQuart' });

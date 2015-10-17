@@ -183,6 +183,12 @@ body{
 	display: block;
 	background: url(../images/img-sprit1.png) no-repeat #F2F4F5 -121px -255px;
 }
+.info-btns ul li:nth-child(3) a{
+	width: 136px;
+	height: 41px;
+	display: block;
+	background: url(../images/windowsphone.png) no-repeat #F2F4F5;
+}
 .info-btns{
 	margin: 0.5em 0;
 }

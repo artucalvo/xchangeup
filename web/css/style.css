@@ -141,13 +141,13 @@ body{
 	width: 180px;
 	height: 53px;
 	display: block;
-	background: url(../images/iosES.png) no-repeat #F2F4F5;
+	background: url(../images/iosEN.png) no-repeat #F2F4F5;
 }
 #androidLinkEN{
 	width: 180px;
 	height: 53px;
 	display: block;
-	background: url(../images/androidES.png) no-repeat #F2F4F5;
+	background: url(../images/androidEN.png) no-repeat #F2F4F5;
 }
 #windowsLinkEN{
 	width: 180px;

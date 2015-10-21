@@ -119,19 +119,37 @@ body{
 .info-btns ul li:first-child{
 	margin-right:5px;
 }
-.info-btns ul li:first-child a{
+#iosLinkES{
 	width: 180px;
 	height: 53px;
 	display: block;
 	background: url(../images/img-sprit.png) no-repeat #F2F4F5 -172px -879px;
 }
-.info-btns ul li:nth-child(2) a{
+#androidLinkES{
 	width: 180px;
 	height: 53px;
 	display: block;
 	background: url(../images/img-sprit.png) no-repeat #F2F4F5 -172px -826px;
 }
-.info-btns ul li:nth-child(3) a{
+#windowsLinkES{
+	width: 180px;
+	height: 53px;
+	display: block;
+	background: url(../images/windowsphone.png) no-repeat #F2F4F5;
+}
+#iosLinkEN{
+	width: 180px;
+	height: 53px;
+	display: block;
+	background: url(../images/img-sprit.png) no-repeat #F2F4F5 -172px -879px;
+}
+#androidLinkEN{
+	width: 180px;
+	height: 53px;
+	display: block;
+	background: url(../images/img-sprit.png) no-repeat #F2F4F5 -172px -826px;
+}
+#windowsLinkEN{
 	width: 180px;
 	height: 53px;
 	display: block;

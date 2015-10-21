@@ -81,6 +81,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		var regexS = "[\\?&]" + parameter + "=([^&#]*)";
 		var regex = new RegExp(regexS);
 		var results = regex.exec(window.location.href);
+		alert(window.location.href + " " + results)
 		if(results == null)
 			return "";
 		else

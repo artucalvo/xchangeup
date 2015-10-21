@@ -5,5 +5,5 @@
 	"Home" : "Inicio",
 	"Features" : "Características",
 	"Contact" : "Contact",
-	"Español" : "English"
+	"<a href=\"web/index.html?lang=es\" class=\"scroll\">Español<\/a>" : "<a href=\"web/index.html\" class=\"scroll\">English<\/a>"
 }

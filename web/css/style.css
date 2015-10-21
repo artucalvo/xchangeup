@@ -544,11 +544,11 @@ box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
     margin-bottom: 20px;
 }
 
-.video {
+.audioPlay {
   float: left;
   position: relative;
 }
-.video hover {
+.audioPlay hover {
   width: 100%;
   height: 100%;
   position: absolute;

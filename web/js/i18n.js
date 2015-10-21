@@ -47,7 +47,7 @@
 		var req = new XHR();
 		
 		// sadly, this has to be blocking to allow for a graceful degrading API
-		req.open("GET", uri, TRUE);
+		req.open("GET", uri, true);
 		req.send(null);
 		
 		if (req.status !== 200 && req.status !== 0) { // changed by ab-tools

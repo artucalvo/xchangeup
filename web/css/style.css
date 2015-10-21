@@ -549,7 +549,7 @@ box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
 .thumb a .play, .thumb a .overlay {opacity: 0;}
 .thumb a:hover .play, .thumb a:hover .overlay {display: block; transition: opacity .25s ease-in-out;-moz-transition: opacity .25s ease-in-out;-webkit-transition: opacity .25s ease-in-out;}
 .thumb a:hover .play {position: relative; font-size: 64px; color: #ffffff; margin-top: 20px; margin-left: 30px; z-index: 1000; opacity: 1;}
-.thumb a:hover .overlay {position: absolute; top: 0; width: 100%; margin-left: 11px; margin-top: 11px; height: 100%; background-color: #000000; opacity: .7;}
+.thumb a:hover .overlay {position: absolute; top: 0; width: 100%; margin-left: 11px; margin-top: 11px; height: 100%; background-color: #000000; opacity: .7; border-radius: 25px;}
 
 /*----responsive-design-----*/
 @media only screen and (max-width: 1440px) and (min-width: 1366px) {

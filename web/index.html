@@ -12,6 +12,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="icon" type="image/x-icon" href="http://www.xtegos.com/web/images/favicon.ico"/>
+	<link rel="localization" hreflang="de" href="web/lang/es.json" type="application/vnd.oftn.l10n+json"/>
 	<meta name="description" content="Escucha tus mensajes con divertidos acentos extranjeros y compártelos como notas de voz en Whatsapp"/>
     <meta name="keywords" content="whatsapp, voces, tts, text-to-speech, speech, notas de voz, mensajes, siri, speech synthesis, voces, divertidos, memes">
 	
@@ -85,13 +86,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			return results[1];
 	}
 	function loaded() {
-		alert('h');)
 		var lang = getParameterValue("lang");
-		alert('lang');
 		if (lang != "") String.locale = lang;
 		document.title = _(document.title);
 		localizeHTMLTag("cookie1");
-		alert('i');
 	}
 	</script><!-- End Internationalization -->
 	

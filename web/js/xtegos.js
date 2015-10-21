@@ -29,6 +29,12 @@
 	}
 
 	
+	/* Play audio with text-to-speech */
+          function playSound(el, link) {
+				  el.mp3 = new Media(link);
+				  el.mp3.play();
+          }
+	
 /* Internationalization */
 	var _ = function (string) {
 		return string.toLocaleString();

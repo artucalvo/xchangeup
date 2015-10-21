@@ -95,14 +95,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		var lang = getParameterValue("lang");
 		if (lang != "") String.locale = lang;
 		document.title = _(document.title);
-		localizeHTMLTag("cookie1");
+		localizeHTMLTag("cookieText");
 	}
 	</script><!-- End Internationalization -->
 	
 </head>
 <body onload="loaded()">
 	<!--Begin HTML Cookies code -->
-	<div class="cookiesms" id="cookie1">This site uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. 
+	<div class="cookiesms" id="cookie1"><p id="cookieText">Esta web utiliza cookies, puedes ver nuestra política de cookies <a href='privacy.html' target='_new'>aquí</a>. Si continuas navegando estás aceptándola.</p>
 		<button onclick="controlcookies()">Aceptar</button>
 		<div  class="cookies2" onmouseover="document.getElementById('cookie1').style.bottom = '0px';">Política de cookies + </div>
 	</div>

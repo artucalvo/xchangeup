@@ -101,6 +101,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		localizeHTMLTag("item2");
 		localizeHTMLTag("item3");
 		localizeHTMLTag("item4");
+		localizeHTMLTag("subtitle");
+		localizeHTMLTag("description");
+		localizeHTMLTag("feature1title");
+		localizeHTMLTag("feature1description");
+		localizeHTMLTag("feature2title");
+		localizeHTMLTag("feature2description");
+		localizeHTMLTag("feature3title");
+		localizeHTMLTag("feature3description");
+		localizeHTMLTag("termsLink");
+		localizeHTMLTag("privacyLink");
 	}
 	</script><!-- End Internationalization -->
 	
@@ -141,8 +151,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="img-banner" id="home">
 		<div class="img-banner-info">
 			<h1>Xtegos</h1>
-			<h2>Voces para Whatsapp</h2>
-			<p>Con Xtegos puedes escuchar tus mensajes con divertidos acentos extranjeros y compartirlos con tus amigos como notas de voz en Whatsapp.<br>Gratis, sin registrarte y sin publicidad.</p>
+			<h2 id="subtitle">Voices for Whatsapp</h2>
+			<p id="description">Read your messages with funny foreign accents and share them on Whatsapp as voice messages. <br>Free, without registration and ads-free.</p>
 			<div class="clear"> </div>
 			<div class="info-btns">
 				<ul>
@@ -163,18 +173,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="wrap">
 		<div class="top-grid">
 			<i class="fa fa-microphone fa-5x"></i>
-			<h3>9 voces disponibles</h3>
-			<p>Xtegos tiene actualmente nueve voces femeninas: inglesa, francesa, alemana, brasileña, italiana, rusa, española, india y japonesa.</label></p>
+			<h3 id="feature1title">9 voices available</h3>
+			<p id="feature1description">Xtegos currently provides nine female voices: British, French, German, Brazilian, Italian, Russian, Spanish, Indian and Japanese.</p>
 		</div>
 		<div class="top-grid">
 			<i class="fa fa-whatsapp fa-5x"></i>
-			<h3>Compartir en Whatsapp</h3>
-			<p>Puedes escuchar tu mensaje en tu móvil y después compartirlo de forma sencilla con los contactos o grupos de Whatsapp que tu eligas.</label></p>
+			<h3 id="feature1title">Share on Whatsapp</h3>
+			<p id="feature1title">You can listen to the message and easily share it on Whatsapp with the contacts or groups that you choose.</p>
 		</div>
 		<div class="top-grid">
 			<i class="fa fa-hand-peace-o fa-5x"></i>
-			<h3>Gratis, sin registro ni publicidad</h3>
-			<p>Xtegos es una app gratuita que tampoco tiene ningún tipo de publicidad ni incómodos anuncios. Simplemente queremos hacerte sonreir :)</label></p>
+			<h3 id="feature1title">Free, without registration and ads-free</h3>
+			<p id="feature1title">Xtegos is a free app that doesn't require sign-up and it doesn't show any ads. We just want to make you smile :)</p>
 		</div>
 		<div class="clear"> </div>
 	</div>
@@ -183,9 +193,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!---start-footer----->
 	<div class="footer" id="contact">
 		<div class="wrap">
-			<p><a href="terms.html">Términos y Condiciones</a> &nbsp;&nbsp;&nbsp;&nbsp;|
+			<p><a href="terms.html" id="termsLink">Terms and Conditions</a> &nbsp;&nbsp;&nbsp;&nbsp;|
 			&nbsp;&nbsp;&nbsp;&nbsp; <a href="mailto:info@xtegos.com">info@xtegos.com</a>&nbsp;&nbsp;&nbsp;&nbsp;|
-			&nbsp;&nbsp;&nbsp;&nbsp; <a href="privacy.html">Política de Privacidad</a></p>
+			&nbsp;&nbsp;&nbsp;&nbsp; <a href="privacy.html" id="privacyLink">Privacy Policy</a></p>
 			<script type="text/javascript">
 			$(document).ready(function() {
 				$().UItoTop({ easingType: 'easeOutQuart' });

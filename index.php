@@ -16,7 +16,6 @@ if(isset($_GET['lang'])) {
 }
 
 if ($page_name=='') {
-    echo $browser_t.'/index.html'.$lang;
 	include $browser_t.'/index.html'.$lang;
 }
 elseif ($page_name=='privacy.html') {

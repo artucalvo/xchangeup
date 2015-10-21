@@ -10,6 +10,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 include "app/config.php";
 include "app/detect.php";
 
-include $browser_t.$page_name;
+include $browser_t.'/'.$page_name;
 
 ?>

@@ -31,7 +31,7 @@
 	
 	/* Play audio with text-to-speech */
           function playSound(el, link) {
-				  el.mp3 = new Media(link);
+				  el.mp3 = new Audio(link);
 				  el.mp3.play();
           }
 	

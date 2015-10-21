@@ -135,25 +135,25 @@ body{
 	width: 180px;
 	height: 53px;
 	display: block;
-	background: url(../images/windowsphone.png) no-repeat #F2F4F5;
+	background: url(../images/windowsphoneES.png) no-repeat #F2F4F5;
 }
 #iosLinkEN{
 	width: 180px;
 	height: 53px;
 	display: block;
-	background: url(../images/img-sprit.png) no-repeat #F2F4F5 -172px -879px;
+	background: url(../images/iosES) no-repeat #F2F4F5;
 }
 #androidLinkEN{
 	width: 180px;
 	height: 53px;
 	display: block;
-	background: url(../images/img-sprit.png) no-repeat #F2F4F5 -172px -826px;
+	background: url(../images/androidES) no-repeat #F2F4F5;
 }
 #windowsLinkEN{
 	width: 180px;
 	height: 53px;
 	display: block;
-	background: url(../images/windowsphone.png) no-repeat #F2F4F5;
+	background: url(../images/windowsphoneEN.png) no-repeat #F2F4F5;
 }
 .info-btns{
 	margin-top: 1.3em;

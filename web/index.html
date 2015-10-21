@@ -45,79 +45,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<script type="text/javascript" src="web/js/move-top.js"></script>
 	<script type="text/javascript" src="web/js/easing.js"></script>
     <script type="text/javascript" src="web/js/i18n.js"></script>
-
-	<script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-			});
-		});
-	</script>
-	<!-- Begin Google Analytics -->
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-68684866-1', 'auto');
-		ga('send', 'pageview');
-	</script><!-- End Google Analytics -->
-	<!-- Begin Cookies -->
-    <script type="text/javascript">
-        function controlcookies() {
-            localStorage.controlcookie = (localStorage.controlcookie || 0);
-            localStorage.controlcookie++; // incrementamos cuenta de la cookie
-            cookie1.style.display='none'; // Esconde la política de cookies
-        }
-    </script><!-- End Cookies -->
-	<!-- Begin Internationalization -->
-    <script type="text/javascript">
-	var _ = function (string) {
-		return string.toLocaleString();
-	};
-	function localizeHTMLTag(tagId) {
-		tag = document.getElementById(tagId);
-		tag.innerHTML = _(tag.innerHTML);
-	}
-	function getParameterValue(parameter) {
-		parameter = parameter.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
-		var regexS = "[\\?&]" + parameter + "=([^&#]*)";
-		var regex = new RegExp(regexS);
-		var results = regex.exec(window.location.href);
-		if(results == null)
-			return "";
-		else
-			return results[1];
-	}
-	function loaded() {
-		var lang = getParameterValue("lang");
-		if (lang != "") String.locale = lang;
-		else {
-		  var langCode = (window.navigator.userLanguage || window.navigator.language);
-		  if (lang != "") lang = langCode.substring(0, 2);
-		}
-		document.title = _(document.title);
-		localizeHTMLTag("cookieText");
-		localizeHTMLTag("cookie2");
-		localizeHTMLTag("item1");
-		localizeHTMLTag("item2");
-		localizeHTMLTag("item3");
-		localizeHTMLTag("item4");
-		localizeHTMLTag("subtitle");
-		localizeHTMLTag("description");
-		localizeHTMLTag("feature1title");
-		localizeHTMLTag("feature1description");
-		localizeHTMLTag("feature2title");
-		localizeHTMLTag("feature2description");
-		localizeHTMLTag("feature3title");
-		localizeHTMLTag("feature3description");
-		localizeHTMLTag("termsLink");
-		localizeHTMLTag("privacyLink");
-	}
-	</script><!-- End Internationalization -->
-	
+    <script type="text/javascript" src="web/js/xtegos.js"></script>	
 </head>
 <body onload="loaded()">
 	<!--Begin HTML Cookies code -->
@@ -160,9 +88,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="clear"> </div>
 			<div class="info-btns">
 				<ul>
-					<li><a href="#" onclick="alert('Próximamente'); ga('send', 'event', 'Downloads', 'iOS', 'Click');"> </a></li>
-					<li><a href="https://play.google.com/store/apps/details?id=com.xtegos.xtegosapp" onclick="ga('send', 'event', 'Downloads', 'Android', 'Click');"></a></li>
-					<li><a href="https://www.microsoft.com/en-us/store/apps/xtegos/9nblggh6cn7h" onclick="ga('send', 'event', 'Downloads', 'Windows', 'Click');"></a></li>
+					<li id="iosLink"><a href="#" onclick="alert('Próximamente'); ga('send', 'event', 'Downloads', 'iOS', 'Click');"></a></li>
+					<li id="androidLink"><a href="https://play.google.com/store/apps/details?id=com.xtegos.xtegosapp" onclick="ga('send', 'event', 'Downloads', 'Android', 'Click');"></a></li>
+					<li id="windowsLink"><a href="https://www.microsoft.com/en-us/store/apps/xtegos/9nblggh6cn7h" onclick="ga('send', 'event', 'Downloads', 'Windows', 'Click');"></a></li>
 				</ul>
 			</div>
 		</div>

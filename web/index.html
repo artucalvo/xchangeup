@@ -94,6 +94,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	function loaded() {
 		var lang = getParameterValue("lang");
 		if (lang != "") String.locale = lang;
+		else {
+		  var langCode = (window.navigator.userLanguage || window.navigator.language);
+		  if (lang != "") lang = langCode.substring(0, 2);
+		}
 		document.title = _(document.title);
 		localizeHTMLTag("cookieText");
 		localizeHTMLTag("cookie2");

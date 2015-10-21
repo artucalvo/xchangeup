@@ -85,10 +85,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			return results[1];
 	}
 	function loaded() {
+		alert('h');)
 		var lang = getParameterValue("lang");
+		alert('lang');
 		if (lang != "") String.locale = lang;
 		document.title = _(document.title);
 		localizeHTMLTag("cookie1");
+		alert('i');
 	}
 	</script><!-- End Internationalization -->
 	

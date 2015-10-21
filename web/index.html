@@ -96,6 +96,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		if (lang != "") String.locale = lang;
 		document.title = _(document.title);
 		localizeHTMLTag("cookieText");
+		localizeHTMLTag("cookies2");
+		localizeHTMLTag("item1");
+		localizeHTMLTag("item2");
+		localizeHTMLTag("item3");
+		localizeHTMLTag("item4");
 	}
 	</script><!-- End Internationalization -->
 	
@@ -103,7 +108,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body onload="loaded()">
 	<!--Begin HTML Cookies code -->
 	<div class="cookiesms" id="cookie1"><p id="cookieText">This site uses cookies. By continuing to browse the site, you are agreeing to our cookies. <a href="privacy.html" target="_new">Find out more</a>. <button onclick="controlcookies()">Accept</button></p>
-		<div  class="cookies2" onmouseover="document.getElementById('cookie1').style.bottom = '0px';">Política de cookies + </div>
+		<div  class="cookies2" onmouseover="document.getElementById('cookie1').style.bottom = '0px';">Cookies Policy + </div>
 	</div>
 	<script type="text/javascript">
 		if (localStorage.controlcookie>0){ 
@@ -122,9 +127,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 		<div class="top-nav">
 			<ul>
-				<li class="active"><a href="#home" class="scroll">Inicio</a></li>
-				<li><a href="#features" class="scroll">Características</a></li>
-				<li><a href="#contact" class="scroll">Contacto</a></li>
+				<li class="active"><a href="#home" class="scroll" id="item1">Home</a></li>
+				<li><a href="#features" class="scroll" id="item2">Características</a></li>
+				<li><a href="#contact" class="scroll" id="item3">Contacto</a></li>
+				<li id="item4"><a href="web/index.html?lang=es" class="scroll">Español</a></li>
 			</ul>
 		</div>
 		<div class="clear"> </div>

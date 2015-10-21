@@ -68,6 +68,5 @@
 		localizeHTMLTag("feature2description");
 		localizeHTMLTag("feature3title");
 		localizeHTMLTag("feature3description");
-		localizeHTMLTag("termsLink");
-		localizeHTMLTag("privacyLink");
+		localizeHTMLTag("footerText");
 	}

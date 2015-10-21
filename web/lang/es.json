@@ -18,5 +18,5 @@
 	"Free. Without registration. Ads-free." : "Gratis, sin registro ni publicidad",
 	"Xtegos is a free app that doesn't require sign-up and it doesn't show any ads. We just want to make you smile :)" : "Xtegos es una app gratuita para la que no necesitas registrarte, y no muestra ningún tipo de publicidad. Simplemente queremos hacerte sonreir :)",
 	"<a href=\"terms.html\">Terms and Conditions<\/a>" : "<a href=\"terminos.html\">Términos y Condiciones<\/a>",
-	"Privacy Policy" : "Política de Privacidad"
+	"<a href=\"privacy.html\" id=\"privacyLink\">Privacy Policy</a>" : "<a href=\"privacidad.html\" id=\"privacyLink\">Política de Privacidad</a>"
 }

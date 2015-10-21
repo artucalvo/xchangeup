@@ -61,11 +61,12 @@
 		localizeHTMLTag("item2");
 		localizeHTMLTag("item3");
 		localizeHTMLTag("item4");
+		localizeHTMLTag("subtitle");
+		localizeHTMLTag("description");
 		localizeHTMLTag("iosLink");
 		localizeHTMLTag("androidLink");
 		localizeHTMLTag("windowsLink");
-		localizeHTMLTag("subtitle");
-		localizeHTMLTag("description");
+		localizeHTMLTag("pic");
 		localizeHTMLTag("feature1title");
 		localizeHTMLTag("feature1description");
 		localizeHTMLTag("feature2title");

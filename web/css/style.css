@@ -100,7 +100,15 @@ body{
 .img-banner-info h2{
 	font-size:2em;
 }
-.img-banner-pic {
+#img-banner-picES{
+	float: right;
+	width: 47.3%;
+	text-align: left;
+	background: url(../images/img-sprit-es.png) no-repeat;
+	height: 598px;
+	margin-bottom: 1.5em;
+}
+.#img-banner-picEN {
 	float: right;
 	width: 47.3%;
 	text-align: left;

@@ -9,6 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
  */
 $current_page_uri = $_SERVER['REQUEST_URI'];
 $part_url = explode("/", $current_page_uri);
-$page_name = start(explode("?", end($part_url));
+$part_page_name = explode("?", end($part_url);
+$page_name = $part_page_name[0];
 $email_id = "info@xtegos.com";
 ?>

@@ -19,14 +19,14 @@ if ($page_name=='') {
 	include $browser_t.'/index.html'.$lang;
 	}
 elseif ($page_name=='privacy.html') {
-	include 'privacy.html.$lang';
+	include 'privacy.html'.$lang;
 	}
 elseif ($page_name=='terms.html') {
-	include 'terms.html.$lang';
+	include 'terms.html'.$lang;
 	}
 else
 	{
-		include $browser_t.'/index.html';
+		include $browser_t.'/index.html'.$lang;
 	}
 
 ?>

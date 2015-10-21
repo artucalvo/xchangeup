@@ -79,7 +79,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	};
 	function localizeHTMLTag(tagId) {
 		tag = document.getElementById(tagId);
-		tag.innerHTML = "b";//_(tag.innerHTML);
+		tag.innerHTML = _(tag.innerHTML);
 	}
 	function getParameterValue(parameter) {
 		parameter = parameter.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
@@ -102,7 +102,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </head>
 <body onload="loaded()">
 	<!--Begin HTML Cookies code -->
-	<div class="cookiesms" id="cookie1"><p id="cookieText">Esta web utiliza cookies, puedes ver nuestra política de cookies <a href='privacy.html' target='_new'>aquí</a>. Si continuas navegando estás aceptándola.</p>
+	<div class="cookiesms" id="cookie1"><p id="cookieText">Esta</p>
 		<button onclick="controlcookies()">Aceptar</button>
 		<div  class="cookies2" onmouseover="document.getElementById('cookie1').style.bottom = '0px';">Política de cookies + </div>
 	</div>

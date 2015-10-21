@@ -12,7 +12,7 @@ include "app/detect.php";
 
 $lang = '';
 if(isset($_GET['lang'])) { 
-	$lang = "/?lang=".$_GET['lang'];
+	$lang = "?lang=".$_GET['lang'];
 }
 
 if ($page_name=='') {

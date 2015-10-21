@@ -10,34 +10,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 include "app/config.php";
 include "app/detect.php";
 
+$lang = '';
+if(isset($_GET['lang'])) { 
+	$lang = "/?lang=".$_GET['lang'];
+
 if ($page_name=='') {
-	include $browser_t.'/index.html';
+	include $browser_t.'/index.html'.$lang;
 	}
-elseif ($page_name=='index.html') {
-	include $browser_t.'/index.html';
+elseif ($page_name=='privacy.html') {
+	include 'privacy.html.$lang';
 	}
-elseif ($page_name=='home.html') {
-	include $browser_t.'/home.html';
-	}
-elseif ($page_name=='features.html') {
-	include $browser_t.'/features.html';
-	}
-elseif ($page_name=='about.html') {
-	include $browser_t.'/about.html';
-	}
-elseif ($page_name=='demo.html') {
-	include $browser_t.'/demo.html';
-	}
-elseif ($page_name=='contact.html') {
-	include $browser_t.'/contact.html';
-	}
-elseif ($page_name=='contact-post.html') {
-	include $browser_t.'/contact.html';
-	include 'app/contact.php';
+elseif ($page_name=='terms.html') {
+	include 'terms.html.$lang';
 	}
 else
 	{
-		include $browser_t.'/404.html';
+		include $browser_t.'/index.html';
 	}
 
 ?>

@@ -9,6 +9,19 @@
 	$(document).ready(function() {
 		$().UItoTop({ easingType: 'easeOutQuart' });
 	});
+	
+/* Social buttons */
+	$('#socialTwitter').mouseenter(function() {
+	  $('#socialTwitter').attr("src","../images/twitterO.jpg");
+	}).mouseleave(function() {	
+	  $('#socialTwitter').attr("src","../images/twitter.jpg");
+	});
+	
+	$('#socialFacebook').mouseenter(function() {
+	  $('#socialFacebook').attr("src","../images/facebookO.jpg");
+	}).mouseleave(function() {	
+	  $('#socialFacebook').attr("src","../images/facebook.jpg");
+	});
 
 	
 /* Google Analytics */

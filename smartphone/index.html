@@ -51,11 +51,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<script type="text/javascript" src="smartphone/js/jquery.mmenu.js"></script>
 
 </head>
-<body>
+<body onload="loaded()">
 	<!--Begin HTML Cookies code -->
-	<div class="cookiesms" id="cookie1">Esta web utiliza cookies, puedes ver nuestra política de cookies <a href="privacy.html" target="_new">aquí</a>. Si continuas navegando estás aceptándola.
-		<button onclick="controlcookies()">Aceptar</button>
-		<div  class="cookies2" onmouseover="document.getElementById('cookie1').style.bottom = '0px';">Política de cookies + </div>
+	<div class="cookiesms" id="cookie1"><p id="cookieText">This site uses cookies. By continuing to browse the site, you are agreeing to our cookies. <a href="privacy.html" target="_new">Find out more</a>. <button onclick="controlcookies()">Accept</button></p>
+		<div class="cookies2" id="cookie2" onmouseover="document.getElementById('cookie1').style.bottom = '0px';">Cookies Policy + </div>
 	</div>
 	<script type="text/javascript">
 		if (localStorage.controlcookie>0){ 
@@ -73,9 +72,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			<nav id="menu-left">
 				<ul>
-				<li class="active"><a href="#home" class="scroll">Inicio</a></li>
-				<li><a href="#features" class="scroll">Características</a></li>
-				<li><a href="#contact" class="scroll">Contacto</a></li>
+				<li class="active"><a href="#home" class="scroll" id="item1">Home</a></li>
+				<li><a href="#features" class="scroll" id="item2">Features</a></li>
+				<li><a href="#contact" class="scroll" id="item3">Samples</a></li>
+				<li id="item4"><a href="index.html?lang=es" class="scroll">Español</a></li>
 				</ul>
 			</nav>
 		</div>

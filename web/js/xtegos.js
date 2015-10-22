@@ -12,15 +12,15 @@
 	
 /* Social buttons */
 	$('#socialTwitter').mouseenter(function() {
-	  $('#socialTwitter').attr("src","../images/twitterO.jpg");
+	  $('#socialTwitter').attr("src","web/images/twitterO.jpg");
 	}).mouseleave(function() {	
-	  $('#socialTwitter').attr("src","../images/twitter.jpg");
+	  $('#socialTwitter').attr("src","web/images/twitter.jpg");
 	});
 	
 	$('#socialFacebook').mouseenter(function() {
-	  $('#socialFacebook').attr("src","../images/facebookO.jpg");
+	  $('#socialFacebook').attr("src","web/images/facebookO.jpg");
 	}).mouseleave(function() {	
-	  $('#socialFacebook').attr("src","../images/facebook.jpg");
+	  $('#socialFacebook').attr("src","web/images/facebook.jpg");
 	});
 
 	

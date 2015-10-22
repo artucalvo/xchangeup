@@ -44,7 +44,7 @@
 	
 /* Internationalization */
 	var _ = function (string) {
-	alert(string);
+	alert(string.toLocaleString());
 		return string.toLocaleString();
 	};
 	function localizeHTMLTag(tagId) {

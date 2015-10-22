@@ -191,16 +191,16 @@ body{
 	margin-right:5px;
 }
 #iosLinkES{
-	width: 180px;
-	height: 53px;
+	width: 136px;
+	height: 41px;
 	display: block;
-	background: url(../images/img-sprit1-es.png) no-repeat #F2F4F5 -172px -879px;
+	background: url(../images/img-sprit1-es.png) no-repeat #F2F4F5 -121px -295px;
 }
 #androidLinkES{
 	width: 136px;
 	height: 41px;
 	display: block;
-	background: url(../images/img-sprit1-es.png) no-repeat #F2F4F5 -172px -826px;
+	background: url(../images/img-sprit1-es.png) no-repeat #F2F4F5 -121px -255px;
 }
 #windowsLinkES{
 	width: 136px;

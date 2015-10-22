@@ -532,11 +532,6 @@ border-top-left-radius: 15px;
 box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
 }
 
-.imgPlayer {
-	width: 105px;
-	margin: 11px;
-}
-
 #samples {
     font-size: 3em;
     margin-left: 80px;

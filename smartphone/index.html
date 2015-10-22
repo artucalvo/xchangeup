@@ -5,23 +5,23 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE HTML>
-<html>
+<html class="no-js" lang="en">
 <head>
-	<title>Xtegos - Voces para Whatsapp</title>
-	<link href='smartphone/css/style.css' rel='stylesheet' type='text/css' />
+	<title>Xtegos - Voices for Whatsapp</title>
+	<link href='web/css/style.css' rel='stylesheet' type='text/css' />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="shortcut icon" type="image/x-icon" href="http://www.xtegos.com/web/images/favicon.ico"/>
-	<link rel="localization" hreflang="de" href="smartphone/lang/es.json" type="application/vnd.oftn.l10n+json"/>
-	<meta name="description" content="Escucha tus mensajes con divertidos acentos extranjeros y compártelos como notas de voz en Whatsapp"/>
+	<link rel="icon" type="image/x-icon" href="http://www.xtegos.com/web/images/favicon.ico"/>
+	<link rel="localization" hreflang="es" href="web/lang/es.json" type="application/vnd.oftn.l10n+json"/>
+	<meta name="description" content="Read your messages with funny foreign accents and share them on Whatsapp as voice messages."/>
     <meta name="keywords" content="whatsapp, voces, tts, text-to-speech, speech, notas de voz, mensajes, siri, speech synthesis, voces, divertidos, memes">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta charset="utf-8">
 	
 	<!-- FACEBOOK TAGS -->
 	<meta property='og:type' content='website'/>
 	<meta property='og:title' content='Xtegos'/>
 	<meta property='og:image' content='http://www.xtegos.com/web/images/logo.png'/>
-	<meta property='og:description' content='Escucha tus mensajes con divertidos acentos extranjeros y compártelos como notas de voz en Whatsapp'/>
+	<meta property='og:description' content='Read your messages with funny foreign accents and share them on Whatsapp as voice messages.'/>
 
 	<!-- TWITER TAGS -->
 	<meta name='twitter:card' content='summary'/>
@@ -38,85 +38,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<meta name='twitter:app:id:ipad' content='id432984038404'/>
 	<meta name='twitter:app:id:googleplay' content='com.foursquare.android'/>
 	<meta name='twitter:title' content='Xtegos'/>
-	<meta name='twitter:description' content='Escucha tus mensajes con divertidos acentos extranjeros y compártelos como notas de voz en Whatsapp'/>
+	<meta name='twitter:description' content='Read your messages with funny foreign accents and share them on Whatsapp as voice messages.'/>
 	<meta name='twitter:image:src' content='http://www.xtegos.com/web/images/logo.png'/>
 	
-	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-	</script>
-	<link type="text/css" rel="stylesheet" href="smartphone/css/jquery.mmenu.all.css" />
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script type="text/javascript" src="smartphone/js/move-top.js"></script>
-	<script type="text/javascript" src="smartphone/js/easing.js"></script>
-	<script type="text/javascript" src="smartphone/js/i18n.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-			});
-		});
-	</script>
-	<script type="text/javascript" src="smartphone/js/jquery.mmenu.js"></script>
-		<script type="text/javascript">
-
-			//	The menu on the left
-			$(function() {
-				$('nav#menu-left').mmenu();
-			});
-		</script>
-	<script><!-- Begin Google Analytics -->
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-68684866-1', 'auto');
-		ga('send', 'pageview');
-	</script><!-- End Google Analytics -->
-    <script type="text/javascript"><!-- Begin Cookies -->
-        function controlcookies() {
-            localStorage.controlcookie = (localStorage.controlcookie || 0);
-            localStorage.controlcookie++; // incrementamos cuenta de la cookie
-            cookie1.style.display='none'; // Esconde la política de cookies
-        }
-    </script><!-- End Cookies -->
-    <script type="text/javascript"><!-- Begin Internationalization -->
-		var _ = function (string) {
-		return string.toLocaleString();
-	};
-	function localizeHTMLTag(tagId) {
-		tag = document.getElementById(tagId);
-		tag.innerHTML = _(tag.innerHTML);
-	}
-	function getParameterValue(parameter) {
-		parameter = parameter.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
-		var regexS = "[\\?&]" + parameter + "=([^&#]*)";
-		var regex = new RegExp(regexS);
-		var results = regex.exec(window.location.href);
-		if(results == null)
-			return "";
-		else
-			return results[1];
-	}
-	function loaded() {
-		var lang = getParameterValue("lang");
-		if (lang != "") String.locale = lang;
-		document.title = _(document.title);
-		localizeHTMLTag("headertext");
-		localizeHTMLTag("subtitletext");
-		localizeHTMLTag("showinenglish");
-		localizeHTMLTag("showingerman");
-	 
-		alert(_("Localizing done!"));
-	}
-	</script><!-- End Internationalization -->
-	
+	<script type="text/javascript" src="web/js/move-top.js"></script>
+	<script type="text/javascript" src="web/js/easing.js"></script>
+    <script type="text/javascript" src="web/js/i18n.js"></script>
+    <script type="text/javascript" src="web/js/xtegos.js"></script>	
 </head>
-<body>
+<body onload="loaded()">
 	<!--Begin HTML Cookies code -->
-	<div class="cookiesms" id="cookie1">Esta web utiliza cookies, puedes ver nuestra política de cookies <a href="privacy.html" target="_new">aquí</a>. Si continuas navegando estás aceptándola.
-		<button onclick="controlcookies()">Aceptar</button>
-		<div  class="cookies2" onmouseover="document.getElementById('cookie1').style.bottom = '0px';">Política de cookies + </div>
+	<div class="cookiesms" id="cookie1"><p id="cookieText">This site uses cookies. By continuing to browse the site, you are agreeing to our cookies. <a href="privacy.html" target="_new">Find out more</a>. <button onclick="controlcookies()">Accept</button></p>
+		<div class="cookies2" id="cookie2" onmouseover="document.getElementById('cookie1').style.bottom = '0px';">Cookies Policy + </div>
 	</div>
 	<script type="text/javascript">
 		if (localStorage.controlcookie>0){ 
@@ -134,32 +68,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			<nav id="menu-left">
 				<ul>
-				<li class="active"><a href="#home" class="scroll">Inicio</a></li>
-				<li><a href="#features" class="scroll">Características</a></li>
-				<li><a href="#contact" class="scroll">Contacto</a></li>
+				<li class="active"><a href="#home" class="scroll" id="item1">Home</a></li>
+				<li><a href="#features" class="scroll" id="item2">Features</a></li>
+				<li><a href="#contact" class="scroll" id="item3">Samples</a></li>
+				<li id="item4"><a href="index.html?lang=es" class="scroll">Español</a></li>
 				</ul>
 			</nav>
 		</div>
 	<!---//End-header---->
 	</div>
 	<!---start-image-banner---->
-	<div class="img-banner">
-		<div class="img-banner-pic">
-		</div>
+	<div class="img-banner" id="home">
 		<div class="img-banner-info">
 			<h1>Xtegos</h1>
-			<h2>Voces para Whatsapp</h2>
-			<p>Con Xtegos puedes escuchar tus mensajes con divertidos acentos extranjeros y compartirlos con tus amigos como notas de voz en Whatsapp.<br>Gratis, sin registrarte y sin publicidad.</p>
+			<h2 id="subtitle">Voices for Whatsapp</h2>
+			<p id="description">Read your messages with funny foreign accents<br> and share them on Whatsapp as voice messages.<br>Free, without registration and ads-free.</p>
 			<div class="clear"> </div>
 			<div class="info-btns">
 				<ul>
-					<li><a href="#" onclick="alert('Próximamente'); ga('send', 'event', 'Downloads', 'iOS', 'Click');"> </a></li>
-					<li><a href="https://play.google.com/store/apps/details?id=com.xtegos.xtegosapp" onclick="ga('send', 'event', 'Downloads', 'Android', 'Click');"></a></li>
-					<li><a href="https://www.microsoft.com/en-us/store/apps/xtegos/9nblggh6cn7h" onclick="ga('send', 'event', 'Downloads', 'Windows', 'Click');"></a></li>
+					<li id="iosLink"><a id="iosLinkEN" href="#" onclick="alert('Coming soon!'); ga('send', 'event', 'Downloads', 'iOS', 'Click');"></a></li>
+					<li id="androidLink"><a id="androidLinkEN" href="https://play.google.com/store/apps/details?id=com.xtegos.xtegosapp" onclick="ga('send', 'event', 'Downloads', 'Android', 'Click');"></a></li>
+					<li id="windowsLink"><a id="windowsLinkEN" href="https://www.microsoft.com/en-us/store/apps/xtegos/9nblggh6cn7h" onclick="ga('send', 'event', 'Downloads', 'Windows', 'Click');"></a></li>
 				</ul>
 			</div>
 		</div>
-		
+		<div id="pic"><div id="img-banner-picEN"></div></div>		
 		<div class="clear"> </div>
 	</div>
 
@@ -169,36 +102,49 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="wrap">
 		<div class="top-grid">
 			<i class="fa fa-microphone fa-5x"></i>
-			<h3>9 voces disponibles</h3>
-			<p>Xtegos tiene actualmente nueve voces femeninas: inglesa, francesa, alemana, brasileña, italiana, rusa, española, india y japonesa.</label></p>
+			<h3 id="feature1title">9 voices available</h3>
+			<p id="feature1description">Xtegos currently provides nine different female voices: British, French, German, Brazilian, Italian, Russian, Spanish, Indian and Japanese.</p>
 		</div>
 		<div class="top-grid">
 			<i class="fa fa-whatsapp fa-5x"></i>
-			<h3>Compartir en Whatsapp</h3>
-			<p>Puedes escuchar tu mensaje en tu móvil y después compartirlo de forma sencilla con los contactos o grupos de Whatsapp que tu eligas.</label></p>
+			<h3 id="feature2title">Share on Whatsapp</h3>
+			<p id="feature2description">You can listen to the voice messages from your device and easily share them on Whatsapp with the contacts or groups that you choose.</p>
 		</div>
 		<div class="top-grid">
 			<i class="fa fa-hand-peace-o fa-5x"></i>
-			<h3>Gratis, sin registro ni publicidad</h3>
-			<p>Xtegos es una app gratuita que tampoco tiene ningún tipo de publicidad ni incómodos anuncios. Simplemente queremos hacerte sonreir :)</label></p>
+			<h3 id="feature3title">Free. Without registration. Ads-free.</h3>
+			<p id="feature3description">Xtegos is a free app that doesn't require sign-up and it doesn't show any ads. We just want to make you smile :)</p>
 		</div>
 		<div class="clear"> </div>
 	</div>
 	</div>
+	<!---//End-top-grids----->
+	<!---start-mid-grids----->
+	<div class="mid-grids" id="about">
+		<div class="mid-grid-top">
+		<div id="samples">Voice samples</div>
+		<div class="wrap text-center">
+		  <div class="thumb" id="uksample"><a href="#samples" onclick="playSound(this,'web/audio/uken.mp3')"><span class="play">►</span><div class="overlay"></div></a><img src="web/images/uk_w.png"></div>
+ 		  <div class="thumb" id="frsample"><a href="#samples" onclick="playSound(this,'web/audio/fren.mp3')"><span class="play">►</span><div class="overlay"></div></a><img src="web/images/fr_w.png"></div>
+		  <div class="thumb" id="desample"><a href="#samples" onclick="playSound(this,'web/audio/deen.mp3')"><span class="play">►</span><div class="overlay"></div></a><img src="web/images/de_w.png"></div>
+		  <div class="thumb" id="pgsample"><a href="#samples" onclick="playSound(this,'web/audio/pgen.mp3')"><span class="play">►</span><div class="overlay"></div></a><img src="web/images/pg_w.png"></div>
+		  <div class="thumb" id="itsample"><a href="#samples" onclick="playSound(this,'web/audio/iten.mp3')"><span class="play">►</span><div class="overlay"></div></a><img src="web/images/it_w.png"></div>
+		  <div class="thumb" id="rusample"><a href="#samples" onclick="playSound(this,'web/audio/ruen.mp3')"><span class="play">►</span><div class="overlay"></div></a><img src="web/images/ru_w.png"></div>
+		  <div class="thumb" id="essample"><a href="#samples" onclick="playSound(this,'web/audio/esen.mp3')"><span class="play">►</span><div class="overlay"></div></a><img src="web/images/es_w.png"></div>
+		  <div class="thumb" id="husample"><a href="#samples" onclick="playSound(this,'web/audio/huen.mp3')"><span class="play">►</span><div class="overlay"></div></a><img src="web/images/hu_w.png"></div>
+		  <div class="thumb" id="jpsample"><a href="#samples" onclick="playSound(this,'web/audio/jpen.mp3')"><span class="play">►</span><div class="overlay"></div></a><img src="web/images/jp_w.png"></div>
+		  <div class="clear"></div>
+		</div>
+	    </div>
+	</div>
+	<!---//End-mid-grids----->
 	<!---start-footer----->
 	<div class="footer" id="contact">
 		<div class="wrap">
-			<p><a href="terms.html">Condiciones</a> &nbsp;&nbsp;&nbsp;&nbsp;|
-			&nbsp;&nbsp;&nbsp;&nbsp; <a href="mailto:info@xtegos.com">info@xtegos.com</a>&nbsp;&nbsp;&nbsp;&nbsp;|
-			&nbsp;&nbsp;&nbsp;&nbsp; <a href="privacy.html">Privacidad</a></p>
-			<script type="text/javascript">
-			$(document).ready(function() {
-				$().UItoTop({ easingType: 'easeOutQuart' });
-			});
- 		    </script>
+			<p id="footerText"><a href="terms.html">Terms and Conditions</a> &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="mailto:info@xtegos.com">info@xtegos.com</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="privacy.html">Privacy Policy</a></p>
             <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
 		</div>
-	</div>
+    </div>
 	<!---//End-footer----->
 <!---//End-wrap---->
 </body>

@@ -80,6 +80,6 @@
 		localizeHTMLTag("feature3title");
 		localizeHTMLTag("feature3description");
 		localizeHTMLTag("samples");
-		localizeHTMLTag("uksample");
+		localizeHTMLTag("frsample");
 		localizeHTMLTag("footerText");
 	}

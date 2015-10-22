@@ -160,6 +160,25 @@ body{
 	margin-bottom: 1.5em;
 	margin: 0 auto;
 }
+
+#img-banner-picES{
+	width: 120px;
+	text-align: left;
+	background: url(../images/img-sprit1-es.png) no-repeat;
+	height: 248px;
+	margin-bottom: 1.5em;
+	margin: 0 auto;
+}
+
+#img-banner-picEN{
+	width: 120px;
+	text-align: left;
+	background: url(../images/img-sprit1.png) no-repeat;
+	height: 248px;
+	margin-bottom: 1.5em;
+	margin: 0 auto;
+}
+
 .img-banner-info p{
 	margin: 0.5em;
 	font-size: 0.875em;

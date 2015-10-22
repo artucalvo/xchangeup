@@ -29,11 +29,12 @@
 	}
 
 	
-	/* Play audio with text-to-speech */
-          function playSound(el, link) {
-				  el.mp3 = new Audio(link);
-				  el.mp3.play();
-          }
+/* Play audio with text-to-speech */
+    function playSound(el, link) {
+ 	    el.mp3 = new Audio(link);
+		el.mp3.play();
+    }
+	
 	
 /* Internationalization */
 	var _ = function (string) {
@@ -57,9 +58,9 @@
 	
 		/* Social buttons */
 		$('#socialTwitter').mouseenter(function() {
-		  $('#socialTwitter').attr("src","../images/twitterO.jpg");
+		  $('#socialTwitter').attr("src","web/images/twitterO.jpg");
 		}).mouseleave(function() {	
-		  $('#socialTwitter').attr("src","../images/twitter.jpg");
+		  $('#socialTwitter').attr("src","web/images/twitter.jpg");
 		});
 		
 		$('#socialFacebook').mouseenter(function() {

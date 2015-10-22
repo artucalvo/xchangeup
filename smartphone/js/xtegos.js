@@ -44,7 +44,6 @@
 	
 /* Internationalization */
 	var _ = function (string) {
-	alert(string.toLocaleString());
 		return string.toLocaleString();
 	};
 	function localizeHTMLTag(tagId) {
@@ -62,16 +61,40 @@
 			return results[1];
 	}
 	function loaded() {
-	alert('1');
 		var lang = getParameterValue("lang");
-		alert(lang);
 		if (lang != "") String.locale = lang;
 		else {
-		alert('2');
 		  var langCode = (window.navigator.userLanguage || window.navigator.language);
 		  if (lang != "") lang = langCode.substring(0, 2);
 		}
-		alert('3');
 		document.title = _(document.title);
-		alert('4');
+		localizeHTMLTag("cookieText");
+		localizeHTMLTag("cookie2");
+		localizeHTMLTag("item1");
+		localizeHTMLTag("item2");
+		localizeHTMLTag("item3");
+		localizeHTMLTag("item4");
+		localizeHTMLTag("subtitle");
+		localizeHTMLTag("description");
+		localizeHTMLTag("iosLink");
+		localizeHTMLTag("androidLink");
+		localizeHTMLTag("windowsLink");
+		localizeHTMLTag("pic");
+		localizeHTMLTag("feature1title");
+		localizeHTMLTag("feature1description");
+		localizeHTMLTag("feature2title");
+		localizeHTMLTag("feature2description");
+		localizeHTMLTag("feature3title");
+		localizeHTMLTag("feature3description");
+		localizeHTMLTag("samples");
+		localizeHTMLTag("uksample");
+		localizeHTMLTag("frsample");
+		localizeHTMLTag("desample");
+		localizeHTMLTag("pgsample");
+		localizeHTMLTag("itsample");
+		localizeHTMLTag("rusample");
+		localizeHTMLTag("essample");
+		localizeHTMLTag("husample");
+		localizeHTMLTag("jpsample");
+		localizeHTMLTag("footerText");
 	}

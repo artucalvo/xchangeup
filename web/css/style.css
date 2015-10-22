@@ -102,7 +102,7 @@ body{
 }
 #img-banner-picES{
 	float: right;
-	width: 47.3%;
+	width: 46%;
 	text-align: left;
 	background: url(../images/img-sprit-es.png) no-repeat;
 	height: 598px;
@@ -110,7 +110,7 @@ body{
 }
 #img-banner-picEN {
 	float: right;
-	width: 47.3%;
+	width: 46%;
 	text-align: left;
 	background: url(../images/img-sprit.png) no-repeat;
 	height: 598px;

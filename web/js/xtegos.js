@@ -79,5 +79,15 @@
 		localizeHTMLTag("feature2description");
 		localizeHTMLTag("feature3title");
 		localizeHTMLTag("feature3description");
+		localizeHTMLTag("samples");
+		localizeHTMLTag("uksample");
+		localizeHTMLTag("frsample");
+		localizeHTMLTag("desample");
+		localizeHTMLTag("pgsample");
+		localizeHTMLTag("itsample");
+		localizeHTMLTag("rusample");
+		localizeHTMLTag("essample");
+		localizeHTMLTag("husample");
+		localizeHTMLTag("jpsample");
 		localizeHTMLTag("footerText");
 	}

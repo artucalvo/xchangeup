@@ -10,19 +10,6 @@
 		$().UItoTop({ easingType: 'easeOutQuart' });
 	});
 	
-/* Social buttons */
-	$('#socialTwitter').mouseenter(function() {
-	  $('#socialTwitter').attr("src","web/images/twitterO.jpg");
-	}).mouseleave(function() {	
-	  $('#socialTwitter').attr("src","web/images/twitter.jpg");
-	});
-	
-	$('#socialFacebook').mouseenter(function() {
-	  $('#socialFacebook').attr("src","web/images/facebookO.jpg");
-	}).mouseleave(function() {	
-	  $('#socialFacebook').attr("src","web/images/facebook.jpg");
-	});
-
 	
 /* Google Analytics */
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -67,6 +54,20 @@
 			return results[1];
 	}
 	function loaded() {
+	
+		/* Social buttons */
+		$('#socialTwitter').mouseenter(function() {
+		  $('#socialTwitter').attr("src","../images/twitterO.jpg");
+		}).mouseleave(function() {	
+		  $('#socialTwitter').attr("src","../images/twitter.jpg");
+		});
+		
+		$('#socialFacebook').mouseenter(function() {
+		  $('#socialFacebook').attr("src","web/images/facebookO.jpg");
+		}).mouseleave(function() {	
+		  $('#socialFacebook').attr("src","web/images/facebook.jpg");
+		});
+	
 		var lang = getParameterValue("lang");
 		if (lang != "") String.locale = lang;
 		else {

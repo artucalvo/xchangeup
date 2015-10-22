@@ -11,7 +11,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<link href='smartphone/css/style.css' rel='stylesheet' type='text/css' />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="icon" type="image/x-icon" href="http://www.xtegos.com/web/images/favicon.ico"/>
+	<link rel="icon" type="image/x-icon" href="http://www.xtegos.com/smartphone/images/favicon.ico"/>
 	<link rel="localization" hreflang="es" href="smartphone/lang/es.json" type="application/vnd.oftn.l10n+json"/>
 	<meta name="description" content="Read your messages with funny foreign accents and share them on Whatsapp as voice messages."/>
     <meta name="keywords" content="whatsapp, voces, tts, text-to-speech, speech, notas de voz, mensajes, siri, speech synthesis, voces, divertidos, memes">
@@ -21,7 +21,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- FACEBOOK TAGS -->
 	<meta property='og:type' content='website'/>
 	<meta property='og:title' content='Xtegos'/>
-	<meta property='og:image' content='http://www.xtegos.com/web/images/logo.png'/>
+	<meta property='og:image' content='http://www.xtegos.com/smartphone/images/logo.png'/>
 	<meta property='og:description' content='Read your messages with funny foreign accents and share them on Whatsapp as voice messages.'/>
 
 	<!-- TWITER TAGS -->
@@ -40,7 +40,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<meta name='twitter:app:id:googleplay' content='com.foursquare.android'/>
 	<meta name='twitter:title' content='Xtegos'/>
 	<meta name='twitter:description' content='Read your messages with funny foreign accents and share them on Whatsapp as voice messages.'/>
-	<meta name='twitter:image:src' content='http://www.xtegos.com/web/images/logo.png'/>
+	<meta name='twitter:image:src' content='http://www.xtegos.com/smartphone/images/logo.png'/>
 	
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="web/js/move-top.js"></script>
@@ -48,11 +48,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <script type="text/javascript" src="web/js/i18n.js"></script>
     <script type="text/javascript" src="web/js/xtegos.js"></script>	
 </head>
-<body>
+<body onload="loaded()">
 	<!--Begin HTML Cookies code -->
-	<div class="cookiesms" id="cookie1">Esta web utiliza cookies, puedes ver nuestra política de cookies <a href="privacy.html" target="_new">aquí</a>. Si continuas navegando estás aceptándola.
-		<button onclick="controlcookies()">Aceptar</button>
-		<div  class="cookies2" onmouseover="document.getElementById('cookie1').style.bottom = '0px';">Política de cookies + </div>
+	<div class="cookiesms" id="cookie1"><p id="cookieText">This site uses cookies. By continuing to browse the site, you are agreeing to our cookies. <a href="privacy.html" target="_new">Find out more</a>. <button onclick="controlcookies()">Accept</button></p>
+		<div class="cookies2" id="cookie2" onmouseover="document.getElementById('cookie1').style.bottom = '0px';">Cookies Policy + </div>
 	</div>
 	<script type="text/javascript">
 		if (localStorage.controlcookie>0){ 
@@ -70,32 +69,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			<nav id="menu-left">
 				<ul>
-				<li class="active"><a href="#home" class="scroll">Inicio</a></li>
-				<li><a href="#features" class="scroll">Características</a></li>
-				<li><a href="#contact" class="scroll">Contacto</a></li>
+				<li class="active"><a href="#home" class="scroll" id="item1">Home</a></li>
+				<li><a href="#features" class="scroll" id="item2">Features</a></li>
+				<li><a href="#contact" class="scroll" id="item3">Samples</a></li>
+				<li id="item4"><a href="index.html?lang=es" class="scroll">Español</a></li>
 				</ul>
 			</nav>
 		</div>
 	<!---//End-header---->
 	</div>
 	<!---start-image-banner---->
-	<div class="img-banner">
-		<div class="img-banner-pic">
-		</div>
+	<div class="img-banner" id="home">
 		<div class="img-banner-info">
 			<h1>Xtegos</h1>
-			<h2>Voces para Whatsapp</h2>
-			<p>Con Xtegos puedes escuchar tus mensajes con divertidos acentos extranjeros y compartirlos con tus amigos como notas de voz en Whatsapp.<br>Gratis, sin registrarte y sin publicidad.</p>
+			<h2 id="subtitle">Voices for Whatsapp</h2>
+			<p id="description">Read your messages with funny foreign accents<br> and share them on Whatsapp as voice messages.<br>Free, without registration and ads-free.</p>
 			<div class="clear"> </div>
 			<div class="info-btns">
 				<ul>
-					<li><a href="#" onclick="alert('Próximamente'); ga('send', 'event', 'Downloads', 'iOS', 'Click');"> </a></li>
-					<li><a href="https://play.google.com/store/apps/details?id=com.xtegos.xtegosapp" onclick="ga('send', 'event', 'Downloads', 'Android', 'Click');"></a></li>
-					<li><a href="https://www.microsoft.com/en-us/store/apps/xtegos/9nblggh6cn7h" onclick="ga('send', 'event', 'Downloads', 'Windows', 'Click');"></a></li>
+					<li id="iosLink"><a id="iosLinkEN" href="#" onclick="alert('Coming soon!'); ga('send', 'event', 'Downloads', 'iOS', 'Click');"></a></li>
+					<li id="androidLink"><a id="androidLinkEN" href="https://play.google.com/store/apps/details?id=com.xtegos.xtegosapp" onclick="ga('send', 'event', 'Downloads', 'Android', 'Click');"></a></li>
+					<li id="windowsLink"><a id="windowsLinkEN" href="https://www.microsoft.com/en-us/store/apps/xtegos/9nblggh6cn7h" onclick="ga('send', 'event', 'Downloads', 'Windows', 'Click');"></a></li>
 				</ul>
 			</div>
 		</div>
-		
+		<div id="pic"><div id="img-banner-picEN"></div></div>
 		<div class="clear"> </div>
 	</div>
 

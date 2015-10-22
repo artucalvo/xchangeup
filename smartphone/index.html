@@ -41,7 +41,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<meta name='twitter:app:id:googleplay' content='com.foursquare.android'/>
 	<meta name='twitter:title' content='Xtegos'/>
 	<meta name='twitter:description' content='Read your messages with funny foreign accents and share them on Whatsapp as voice messages.'/>
-	<meta name='twitter:image:src' content='http://www.xtegos.com/web/images/logo.png'/>
+	<meta name='twitter:image:src' content='http://www.xtegos.com/smartphone/images/logo.png'/>
 	
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="smartphone/js/move-top.js"></script>
@@ -107,36 +107,49 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="wrap">
 		<div class="top-grid">
 			<i class="fa fa-microphone fa-5x"></i>
-			<h3>9 voces disponibles</h3>
-			<p>Xtegos tiene actualmente nueve voces femeninas: inglesa, francesa, alemana, brasileña, italiana, rusa, española, india y japonesa.</label></p>
+			<h3 id="feature1title">9 voices available</h3>
+			<p id="feature1description">Xtegos currently provides nine different female voices: British, French, German, Brazilian, Italian, Russian, Spanish, Indian and Japanese.</p>
 		</div>
 		<div class="top-grid">
 			<i class="fa fa-whatsapp fa-5x"></i>
-			<h3>Compartir en Whatsapp</h3>
-			<p>Puedes escuchar tu mensaje en tu móvil y después compartirlo de forma sencilla con los contactos o grupos de Whatsapp que tu eligas.</label></p>
+			<h3 id="feature2title">Share on Whatsapp</h3>
+			<p id="feature2description">You can listen to the voice messages from your device and easily share them on Whatsapp with the contacts or groups that you choose.</p>
 		</div>
 		<div class="top-grid">
 			<i class="fa fa-hand-peace-o fa-5x"></i>
-			<h3>Gratis, sin registro ni publicidad</h3>
-			<p>Xtegos es una app gratuita que tampoco tiene ningún tipo de publicidad ni incómodos anuncios. Simplemente queremos hacerte sonreir :)</label></p>
+			<h3 id="feature3title">Free. Without registration. Ads-free.</h3>
+			<p id="feature3description">Xtegos is a free app that doesn't require sign-up and it doesn't show any ads. We just want to make you smile :)</p>
 		</div>
 		<div class="clear"> </div>
 	</div>
 	</div>
+	<!---//End-top-grids----->
+	<!---start-mid-grids----->
+	<div class="mid-grids" id="about">
+		<div class="mid-grid-top">
+		<div id="samples">Voice samples</div>
+		<div class="wrap text-center">
+		  <div class="thumb" id="uksample"><a href="#samples" onclick="playSound(this,'smartphone/audio/uken.mp3')"><span class="play">►</span><div class="overlay"></div></a><img src="smartphone/images/uk_w.png"></div>
+ 		  <div class="thumb" id="frsample"><a href="#samples" onclick="playSound(this,'smartphone/audio/fren.mp3')"><span class="play">►</span><div class="overlay"></div></a><img src="smartphone/images/fr_w.png"></div>
+		  <div class="thumb" id="desample"><a href="#samples" onclick="playSound(this,'smartphone/audio/deen.mp3')"><span class="play">►</span><div class="overlay"></div></a><img src="smartphone/images/de_w.png"></div>
+		  <div class="thumb" id="pgsample"><a href="#samples" onclick="playSound(this,'smartphone/audio/pgen.mp3')"><span class="play">►</span><div class="overlay"></div></a><img src="smartphone/images/pg_w.png"></div>
+		  <div class="thumb" id="itsample"><a href="#samples" onclick="playSound(this,'smartphone/audio/iten.mp3')"><span class="play">►</span><div class="overlay"></div></a><img src="smartphone/images/it_w.png"></div>
+		  <div class="thumb" id="rusample"><a href="#samples" onclick="playSound(this,'smartphone/audio/ruen.mp3')"><span class="play">►</span><div class="overlay"></div></a><img src="smartphone/images/ru_w.png"></div>
+		  <div class="thumb" id="essample"><a href="#samples" onclick="playSound(this,'smartphone/audio/esen.mp3')"><span class="play">►</span><div class="overlay"></div></a><img src="smartphone/images/es_w.png"></div>
+		  <div class="thumb" id="husample"><a href="#samples" onclick="playSound(this,'smartphone/audio/huen.mp3')"><span class="play">►</span><div class="overlay"></div></a><img src="smartphone/images/hu_w.png"></div>
+		  <div class="thumb" id="jpsample"><a href="#samples" onclick="playSound(this,'smartphone/audio/jpen.mp3')"><span class="play">►</span><div class="overlay"></div></a><img src="smartphone/images/jp_w.png"></div>
+		  <div class="clear"></div>
+		</div>
+	    </div>
+	</div>
+	<!---//End-mid-grids----->
 	<!---start-footer----->
 	<div class="footer" id="contact">
 		<div class="wrap">
-			<p><a href="terms.html">Condiciones</a> &nbsp;&nbsp;&nbsp;&nbsp;|
-			&nbsp;&nbsp;&nbsp;&nbsp; <a href="mailto:info@xtegos.com">info@xtegos.com</a>&nbsp;&nbsp;&nbsp;&nbsp;|
-			&nbsp;&nbsp;&nbsp;&nbsp; <a href="privacy.html">Privacidad</a></p>
-			<script type="text/javascript">
-			$(document).ready(function() {
-				$().UItoTop({ easingType: 'easeOutQuart' });
-			});
- 		    </script>
+			<p id="footerText"><a href="terms.html">Terms</a> | <a href="mailto:info@xtegos.com">info@xtegos.com</a> | <a href="privacy.html">Privacy</a></p>
             <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
 		</div>
-	</div>
+    </div>
 	<!---//End-footer----->
 <!---//End-wrap---->
 </body>

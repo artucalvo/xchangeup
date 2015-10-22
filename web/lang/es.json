@@ -5,7 +5,7 @@
 	"Home" : "Inicio",
 	"Features" : "Características",
 	"Samples" : "Ejemplos",
-	"<a href=\"index.html?lang=es\" class=\"scroll\">Español<\/a>" : "<a href=\"http://www.xtegos.com/" class=\"scroll\">English<\/a>",
+	"<a href=\"index.html?lang=es\" class=\"scroll\">Español<\/a>" : "<a href=\"http://www.xtegos.com/\" class=\"scroll\">English<\/a>",
 	"<a id=\"iosLinkEN\" href=\"#\" onclick=\"alert('Coming soon!'); ga('send', 'event', 'Downloads', 'iOS', 'Click');\"><\/a>" : "<a id=\"iosLinkES\" href=\"#\" onclick=\"alert('Próximamente!'); ga('send', 'event', 'Downloads', 'iOS', 'Click');\"><\/a>",
 	"<a id=\"androidLinkEN\" href=\"https://play.google.com/store/apps/details?id=com.xtegos.xtegosapp\" onclick=\"ga('send', 'event', 'Downloads', 'Android', 'Click');\"><\/a>" : "<a id=\"androidLinkES\" href=\"https://play.google.com/store/apps/details?id=com.xtegos.xtegosapp&hl=es\" onclick=\"ga('send', 'event', 'Downloads', 'Android', 'Click');\"><\/a>",
 	"<a id=\"windowsLinkEN\" href=\"https://www.microsoft.com/en-us/store/apps/xtegos/9nblggh6cn7h\" onclick=\"ga('send', 'event', 'Downloads', 'Windows', 'Click');\"><\/a>" : "<a id=\"windowsLinkES\" href=\"https://www.microsoft.com/es-es/store/apps/xtegos/9nblggh6cn7h\" onclick=\"ga('send', 'event', 'Downloads', 'Windows', 'Click');\"><\/a>",

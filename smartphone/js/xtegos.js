@@ -44,6 +44,7 @@
 	
 /* Internationalization */
 	var _ = function (string) {
+	alert(string);
 		return string.toLocaleString();
 	};
 	function localizeHTMLTag(tagId) {
@@ -61,11 +62,16 @@
 			return results[1];
 	}
 	function loaded() {
+	alert('1');
 		var lang = getParameterValue("lang");
+		alert(lang);
 		if (lang != "") String.locale = lang;
 		else {
+		alert('2');
 		  var langCode = (window.navigator.userLanguage || window.navigator.language);
 		  if (lang != "") lang = langCode.substring(0, 2);
 		}
+		alert('3');
 		document.title = _(document.title);
+		alert('4');
 	}

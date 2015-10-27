@@ -606,6 +606,25 @@ box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
 .thumb a:hover .play, .thumb a:hover .overlay {display: block; transition: opacity .25s ease-in-out;-moz-transition: opacity .25s ease-in-out;-webkit-transition: opacity .25s ease-in-out;}
 .thumb a:hover .play {position: relative; font-size: 64px; color: #ffffff; margin-top: 10px; margin-left: 10px; z-index: 1000; opacity: 1;}
 
+.shadow{
+	background: url(../images/sectionShadow.jpg);
+	background-size:100% auto;
+	background-repeat: no-repeat;
+	max-width:675px;
+	height:60px;
+	margin: auto auto;
+}
+
+div.section {
+	text-align:center;
+}
+
+div.sectionContent {
+	max-width:700px;	
+	text-align:center;
+	margin-left: auto ;
+    margin-right: auto ;    
+}
 
 /*----responsive-design-----*/
 @media only screen and (max-width: 1440px) and (min-width: 1366px) {

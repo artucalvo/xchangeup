@@ -9,7 +9,7 @@
 	$(document).ready(function() {
 		$().UItoTop({ easingType: 'easeOutQuart' });
 	});
-
+	
 	
 /* Google Analytics */
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -29,11 +29,12 @@
 	}
 
 	
-	/* Play audio with text-to-speech */
-          function playSound(el, link) {
-				  el.mp3 = new Audio(link);
-				  el.mp3.play();
-          }
+/* Play audio with text-to-speech */
+    function playSound(el, link) {
+ 	    el.mp3 = new Audio(link);
+		el.mp3.play();
+    }
+	
 	
 /* Internationalization */
 	var _ = function (string) {
@@ -54,6 +55,20 @@
 			return results[1];
 	}
 	function loaded() {
+	
+		/* Social buttons */
+		$('#socialTwitter').mouseenter(function() {
+		  $('#socialTwitter').attr("src","web/images/twitterO.jpg");
+		}).mouseleave(function() {	
+		  $('#socialTwitter').attr("src","web/images/twitter.jpg");
+		});
+		
+		$('#socialFacebook').mouseenter(function() {
+		  $('#socialFacebook').attr("src","web/images/facebookO.jpg");
+		}).mouseleave(function() {	
+		  $('#socialFacebook').attr("src","web/images/facebook.jpg");
+		});
+	
 		var lang = getParameterValue("lang");
 		if (lang != "") String.locale = lang;
 		else {

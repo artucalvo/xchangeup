@@ -1,4 +1,4 @@
-/* Scroll */
+﻿/* Scroll */
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
 			event.preventDefault();
@@ -58,15 +58,15 @@
 	
 		/* Social buttons */
 		$('#socialTwitter').mouseenter(function() {
-		  $('#socialTwitter').attr("src","web/images/twitterO.jpg");
+		  $('#socialTwitter').attr("src","images/twitterO.jpg");
 		}).mouseleave(function() {	
-		  $('#socialTwitter').attr("src","web/images/twitter.jpg");
+		  $('#socialTwitter').attr("src","images/twitter.jpg");
 		});
 		
 		$('#socialFacebook').mouseenter(function() {
-		  $('#socialFacebook').attr("src","web/images/facebookO.jpg");
+		  $('#socialFacebook').attr("src","images/facebookO.jpg");
 		}).mouseleave(function() {	
-		  $('#socialFacebook').attr("src","web/images/facebook.jpg");
+		  $('#socialFacebook').attr("src","images/facebook.jpg");
 		});
 	
 		var lang = getParameterValue("lang");

@@ -502,7 +502,7 @@ body{
 	margin:0 auto;
 	padding-left:1%;
         padding-top:5px;
-        font-size: 1.2em;
+        font-size: 0.7em;
 	clear:both;
         font-weight: strong;
 color: #333;
@@ -548,7 +548,6 @@ box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
 
 #samples {
     font-size: 3em;
-    margin-left: 80px;
     margin-top: -50px;
     margin-bottom: 20px;
 }

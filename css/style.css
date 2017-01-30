@@ -166,6 +166,20 @@ body{
 .info-btns{
 	margin-top: 1.3em;
 }
+#emailLabel {
+	width: 200px;
+    display: inline;
+}
+#subscribe {
+	margin: auto;
+    text-align: center;
+}
+#emailSubmit {
+}
+#subscribe-description {
+	text-align: center;
+}
+
 /*----//End-image-banner-----*/
 /*---start-top-grids-----*/
 .top-grids{

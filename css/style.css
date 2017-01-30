@@ -210,6 +210,9 @@ body{
 #subscribe-description {
 	text-align: center;
 }
+.socialButton {
+	padding: 0 50px;
+}
 
 /*----//End-image-banner-----*/
 /*---start-top-grids-----*/

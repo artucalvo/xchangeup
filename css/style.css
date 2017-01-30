@@ -169,13 +169,44 @@ body{
 #emailLabel {
 	width: 200px;
     display: inline;
+	background-color: rgb(250, 255, 189);
+    background-image: none;
+    color: rgb(0, 0, 0);
+    font-family: "ProximaNovaLight","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    padding: 10px 15px 13px;
+    border: 1px solid #ccc;
+    position: relative;
+    background-color: #fff;
+    z-index: 20;
+    border-radius: 1px;
+    line-height: 17px;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    margin-right: 20px;
 }
 #subscribe {
 	margin: auto;
     text-align: center;
 }
 #emailSubmit {
+	-moz-box-shadow: inset 0px 1px 0px 0px #bbff6e;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #bbff6e;
+    box-shadow: inset 0px 1px 0px 0px #bbff6e;
+    background-color: #7bde2f;
+    border: none;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 12px 15px 12px 15px;
 }
+#emailSubmit:hover {
+    background-color: #00de2f;
+}
+
 #subscribe-description {
 	text-align: center;
 }

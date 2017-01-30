@@ -719,20 +719,11 @@ div.sectionContent {
 		margin-top: 100px;
 	}
 	#img-banner-picEN {
-	    background: url(../images/img-sprit.png) no-repeat;
+		background: url(../images/img-sprit.png) no-repeat;
 	    height: 598px;
 	    margin-bottom: 1.5em;
-	    margin-left: 40px;
-		float: none;
-    	width: 100%;
-	}
-	#img-banner-picES {
-	    background: url(../images/img-spritES.png) no-repeat;
-	    height: 598px;
-	    margin-bottom: 1.5em;
-	    margin-left: 40px;
-		float: none;
-	    width: 100%;
+	    float: none;
+	    margin: auto;
 	}
 	.mid-grid-top-pic {
 		width:396px;

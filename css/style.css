@@ -721,9 +721,8 @@ div.sectionContent {
 	#img-banner-picEN {
 		background: url(../images/img-sprit.png) no-repeat;
 	    height: 598px;
-	    margin-bottom: 1.5em;
 	    float: none;
-	    margin: auto;
+	    margin: 30px auto;
 	    width: 280px;
 	}
 	.mid-grid-top-pic {

@@ -6,7 +6,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
-	<meta name="description" content="XchangeUp is a P2P currency exchange app that enables users to securely exchange currencies from other trusted users at airports at the real FX rate."/>
+	<meta name="description" content="XchangeUp is a P2P currency exchange app that enables users to securely exchange currencies from other trusted users at a fair rate."/>
     <meta name="keywords" content="currency exchange, foreign currency, p2p currency exchange, p2p, eur, usd, gbp, free currency exchange, app, forex, fintech startups, collaborative economy, fx, commission free exchange">
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +15,7 @@
 	<meta property='og:type' content='website'/>
 	<meta property='og:title' content='XchangeUp'/>
 	<meta property='og:image' content='images/logo.png'/>
-	<meta property='og:description' content='XchangeUp is a P2P currency exchange app that enables users to securely exchange currencies from other trusted users at airports at the real FX rate.'/>
+	<meta property='og:description' content='XchangeUp is a P2P currency exchange app that enables users to securely exchange currencies from other trusted users at a fair rate.'/>
 
 	<!-- TWITER TAGS -->
 	<meta name='twitter:card' content='summary'/>
@@ -32,7 +32,7 @@
 	<meta name='twitter:app:id:ipad' content='id432984038404'/>
 	<meta name='twitter:app:id:googleplay' content='com.foursquare.android'/>
 	<meta name='twitter:title' content='XchangeUp'/>
-	<meta name='twitter:description' content='XchangeUp is a P2P currency exchange app that enables users to securely exchange currencies from other trusted users at airports at the real FX rate.'/>
+	<meta name='twitter:description' content='XchangeUp is a P2P currency exchange app that enables users to securely exchange currencies from other trusted users at a fair rate.'/>
 	<meta name='twitter:image:src' content='http://www.xchangeup.com/images/logo.png'/>
 	
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -40,6 +40,17 @@
 	<script type="text/javascript" src="js/easing.js"></script>
     <script type="text/javascript" src="js/l10n.js"></script>
     <script type="text/javascript" src="js/xchangeup.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+	<script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
+
 </head>
 
 <body onload="loaded()">
@@ -79,7 +90,7 @@
 		<div class="img-banner-info">
 			<h1>XchangeUp</h1>
 			<h2 id="subtitle">Exchange currencies at a fair rate</h2>
-			<p id="description">XchangeUp is a P2P currency exchange app that enables users to securely exchange currencies from other trusted users at airports at a fair rate.</p>
+			<p id="description">XchangeUp is a P2P currency exchange app that enables users to securely exchange currencies from other trusted users at a fair rate.</p>
 			<div class="clear"> </div>
 			<div class="info-btns">
 				<ul>
@@ -110,10 +121,27 @@
 		<div class="top-grid">
 			<i class="fa fa-lock fa-5x"></i>
 			<h3 id="feature2title">Secure transactions</h3>
-			<p id="feature2description">All our users have their identity verified via phone number, credit card and photo, and you can read and write reviews about your match. Meeting points to exchange currencies are located within the secure area of an international airport.</p>
+			<p id="feature2description">All our users have their identity verified via phone number, credit card and photo. We will only match you with trusted users. You can read reviews about the other user before accepting the exchange, and let us know how it went.</p>
 		</div>
 		<div class="clear"> </div>
 	</div>
+
+    <!-- div class="countercontainer">
+        <div class="section"> \>
+            <span class="counter">1314</span>
+            <h5>Registered users</h5> 
+        </div>
+        <div class="quarter">
+            <span class="counter">1873</span>
+            <h5>LLamadas de skype</h5>
+        </div>
+        <div class="quarter">
+            <span class="counter">18</span>
+            <h5>Cafés diarios</h5>
+        </div>
+        <div class="clear"></div>
+    </div -->
+
 	</div>
 	<!-- End-top-grids -->
 	<!-- start-mid-grids -->
